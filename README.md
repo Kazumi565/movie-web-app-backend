@@ -13,6 +13,8 @@ Table of Contents
 *   [Configuration](#configuration)
     
 *   [Usage](#usage)
+
+*   [Import Movie Data](#import-movie-data)
     
 *   [Contributing](#contributing)
     
@@ -83,7 +85,23 @@ Usage
 ```bash
 ./mvnw spring-boot:run
 ```
+Import Movie Data
+-----------------
 
+1.  **Locate JSON File:** Open the `movie\_data` folder in this repository. You'll find a JSON file `movies.json` containing the movie data.
+    
+2.  **Open MongoDB Compass:** Connect to your MongoDB database using MongoDB Compass.
+    
+3.  **Select Collection:** Select the movies collection in your database.
+    
+4.  **Import Data:**
+    
+    *   Click the "Add Data" button, then choose "Import File."
+        
+    *   Select the JSON file from the movie\_data folder.
+        
+    *   Choose "JSON" as the file type and click "Import."
+      
 Contributing
 ------------
 
